@@ -1,0 +1,215 @@
+/* .btn {
+    border-radius: 40px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+
+}
+
+.btn--primary{
+    background: dodgerblue;
+    color: white    ;
+}
+.btn--primary:hover{
+    background: yellow;
+}
+
+.btn--secondary{
+    background: darkgreen;
+    color: white;
+}
+
+.btn--secondary:hover{
+    background: darkmagenta;
+}
+
+.btn--outline{
+    background: #fff;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn--outline:hover{
+    background: black;
+    color: #fff;
+}
+
+.btn--block{
+    width: 100%;
+    display: inline-block;
+}
+
+@media screen and (min-width:1024px) {
+    .btn{
+        font-size: 1.5rem;
+    }
+}
+     */
+
+body {
+  font-size: 15px;
+  /* color: #505050; */
+  font-family: "Roboto Condensed", sans-serif;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+  overflow-x: hidden;
+  background: linear-gradient(to right, #0000FF 50%, #696969 100%);
+}
+
+.wrapper {
+  margin-top: 10px;
+}
+
+.wrapper h1 {
+  font-size: 80px;
+  margin-top: 1px;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.wrapper h2 {
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 15vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 1px solid #ffffff;
+  width: 400px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px;
+  background: linear-gradient(to right, #0000FF 30%, #696969 70%);
+}
+
+.wrapper h3 {
+  font-size: 30px;
+  margin-top: 1px;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* button */
+
+/* *{
+        margin: auto;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+
+a {
+  border: none;
+  background: initial;
+}
+
+.link-web .btn {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10 0px !important;
+}
+
+.btn {
+  padding: 10px 100px;
+  border-radius: 550000px;
+  cursor: pointer;
+  /* color: #ffffff; */
+  transition: all 0.4s;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btn--primary {
+  background-color: #ffffff;
+}
+
+.btn--primary:hover {
+  color: #ffffff;
+  background: linear-gradient(-135deg, #696969, #0000FF);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.btn--accent {
+  background-color: #ffffff;
+}
+
+.btn--accent:hover {
+  color: #ffffff;
+  background: linear-gradient(-135deg, #696969, #0000FF);
+  box-shadow: 0 4px 15px 0 rgba(245,245,245);
+}
+
+@media screen and (max-width: 426px) {
+  .link-web .btn {
+    width: 95%;
+    margin-top: 2px !important;
+    margin-bottom: 10px;
+  }
+  .wrapper h3 {
+    font-size: 20px;
+    margin-top: 1px !important;
+    text-align: center;
+    margin-bottom: 50px !important;
+    justify-content: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .link-web a{
+      font-size: 20px;
+  }
+
+  .wrapper h1 {
+    font-size: 25px !important;
+    margin-top: 1px !important;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 30px !important;
+    justify-content: center;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .wrapper h2 {
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 90px !important;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    border: 1px solid #ffffff;
+    width: 320px;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 5px;
+    background: linear-gradient(135deg, #9b59b6, #71b7e6);
+  }
+  .btn {
+    padding: 10px 10px;
+    border-radius: 550000px;
+    cursor: pointer;
+    /* color: #ffffff; */
+    transition: all 0.4s;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+}
