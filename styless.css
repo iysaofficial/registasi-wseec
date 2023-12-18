@@ -160,7 +160,7 @@ form .button input {
 }
 form .button input:hover {
   /* transform: scale(0.99); */
-  background: linear-gradient(to right, #057a8d 50%, #0c8195 100%);
+  background: linear-gradient(-135deg, #f5f5f5, #0c8195);
 }
 
 @media (max-width: 584px) {
