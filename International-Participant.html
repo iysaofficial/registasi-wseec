@@ -41,7 +41,9 @@
         <p>1.&nbsp; &nbsp; Please fill in the required data correctly and make sure there are no writing errors. Please also make sure that the data submitted is fixed and there will be no changes.</p>
         <p>2.&nbsp; &nbsp;After making sure the data is correct, you can click send. If we have received your data, there will be a green notification as follows above the submit button : </p>
         <img class="con" src="../../2.PNG" alt="">
-        <p>3.&nbsp; &nbsp;Wait for 3x24 hours from the time of registration LoA will be sent to the team leader's email.</p>
+        <p>3.&nbsp; &nbsp;Data has been successfully submitted registration data will be sent to the team leader's email address, and the file will be validated by our team. 
+          Please be patient and wait up to 3 days after the registration time. Letter of Acceptance (LOA) will be sent to the team leader's email address.
+          </p>
         <form name="#">
           
           <div class="user-details">
@@ -499,7 +501,7 @@
       fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then((response) =>
           $('#form_alerts').html(
-            "<div class='alert alert-success'>Data sent successfully, Wait for 3x24 hours from the time of registration LoA will be sent to the team leader's email.</div>"
+            "<div class='alert alert-success'>Data sent successfully, Wait for 3 days from the time of registration and the LoA will be sent to the team leader email address.</div>"
           )
         )
         .catch((error) =>
