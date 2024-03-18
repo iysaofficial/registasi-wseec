@@ -142,6 +142,7 @@ a {
   color: #ffffff;
  background: linear-gradient(to right, #0c8195 50%, #057a8d 100%);
  box-shadow: 0 4px 15px 0 rgba(245,245,245);
+ border: #000 1px solid;
 }
 
 .btn--accent {
